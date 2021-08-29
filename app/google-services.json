@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298820875608",
+    "firebase_url": "https://childwelfare-8a66c-default-rtdb.firebaseio.com",
+    "project_id": "childwelfare-8a66c",
+    "storage_bucket": "childwelfare-8a66c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298820875608:android:03351cb4800df2dd96e12d",
+        "android_client_info": {
+          "package_name": "com.example.hp.animalwelfare123"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298820875608-vg6eivfo6te55djotmgqsds6at7baegm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ2rEv5IsTa7tRH9kJkFTL4IuhHAHy7XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298820875608-vg6eivfo6te55djotmgqsds6at7baegm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

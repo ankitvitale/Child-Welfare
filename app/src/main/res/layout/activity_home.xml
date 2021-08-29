@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu_animationDelayPerItem="50"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_buttonSpacing="0dp"
+        app:menu_colorNormal="#03A9F4"
+        app:menu_colorPressed="#CDDC39"
+        app:menu_colorRipple="#99FFFFFF"
+        app:menu_fab_label="Capture"
+        app:menu_fab_size="normal"
+        app:menu_icon="@drawable/fab_add"
+        app:menu_labels_colorNormal="#CDDC39"
+        app:menu_labels_colorPressed="#d2d6e9"
+        app:menu_labels_colorRipple="#66FFFFFF"
+        app:menu_labels_cornerRadius="3dp"
+        app:menu_labels_ellipsize="none"
+        app:menu_labels_margin="0dp"
+        app:menu_labels_maxLines="-1"
+        app:menu_labels_padding="8dp"
+        app:menu_labels_paddingBottom="4dp"
+        app:menu_labels_paddingLeft="8dp"
+        app:menu_labels_paddingRight="8dp"
+        app:menu_labels_paddingTop="4dp"
+        app:menu_labels_position="left"
+        app:menu_labels_showShadow="true"
+        app:menu_labels_singleLine="false"
+        app:menu_labels_textColor="#FFFFFF"
+        app:menu_labels_textSize="14sp"
+        app:menu_openDirection="up"
+        app:menu_shadowColor="#66000000"
+        app:menu_shadowRadius="4dp"
+        app:menu_shadowXOffset="1dp"
+        app:menu_shadowYOffset="3dp"
+        app:menu_showShadow="true"
+        android:layout_alignParentEnd="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/injured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Injured_Animal"
+            app:menu_colorNormal="#03A9F4"
+            app:menu_colorPressed="#8BC34A"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            app:fab_label="Child"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/dlist"
+            app:menu_colorNormal="#03A9F4"
+            app:menu_colorPressed="#8BC34A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Doctor_List"
+            android:src="@drawable/ic_call_black_24dp"
+            app:fab_label="Contact NGO"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/logout"
+            app:menu_colorNormal="#03A9F4"
+            app:menu_colorPressed="#8BC34A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="SignOut"
+            android:src="@drawable/ic_call_black_24dp"
+            app:fab_label="Log Out"
+            app:fab_size="mini" />
+    </com.github.clans.fab.FloatingActionMenu>
+</android.support.constraint.ConstraintLayout>

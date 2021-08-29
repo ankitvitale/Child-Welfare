@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:padding="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/image111"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/user1"/>
+
+            <TextView
+                android:id="@+id/name111"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/image111"
+                android:text="Doctor Name" />
+
+            <TextView
+                android:id="@+id/mobile111"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/name111"
+                android:layout_toRightOf="@+id/image111"
+                android:text="Mobile No." />
+
+            <TextView
+                android:id="@+id/add111"
+                style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mobile111"
+                android:layout_toRightOf="@+id/image111"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="Address" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
